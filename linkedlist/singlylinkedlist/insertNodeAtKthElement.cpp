@@ -20,8 +20,11 @@ class Node{
     }
 };
 
+// Solution class represents operation of linkedlist
 class Solution{
     public:
+
+    // function to convert array to LL
     Node* convertArray2LL(vector<int> &arr){
         Node* head = new Node(arr[0]);
         Node* temp = head;
@@ -40,6 +43,8 @@ class Solution{
         // return the new node as the head
         return newnode;
     }
+
+    // function to print LL
     void printlist(Node* head){
         Node* temp = head;
         while(temp != NULL){
@@ -48,6 +53,8 @@ class Solution{
         }
         cout<<endl;
     }
+
+    // function to insert node at kth node
     Node* insertAtKthElement(Node* head,int k,int val){
         int cnt = 0;
         Node* temp = head;
@@ -63,7 +70,10 @@ class Solution{
 
 };
 int main(){
+
+    // create oblect of Solution class
     Solution sol;
+    // create array
     vector<int> arr = {2,4,3,5,6,8};
     Node* head = sol.convertArray2LL(arr);
     head = sol.insertAtKthElement(head,4,10);
