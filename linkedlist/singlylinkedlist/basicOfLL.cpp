@@ -17,7 +17,8 @@ class Node {
     // constructor with data
     Node(int data1){
         data = data1; 
-        next = nullptr; 
+        next = nullptr;
+     // next = NULL; 
     }
 };
 int main(){
