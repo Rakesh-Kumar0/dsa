@@ -11,7 +11,7 @@ class Node{
     Node* next;  //Pointer to next node
     Node* back;  //Pointer to previous node
 
-    // constructor with data and next
+    // constructor with data and next and previous
     Node(int data1, Node* next1, Node* back1){
         data = data1;
         next = next1;
