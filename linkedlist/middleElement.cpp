@@ -4,6 +4,7 @@
 #include<algorithm>
 using namespace std;
 
+// Node class represent the node of linkedlist
 class Node {
     int data;
     Node* next;
