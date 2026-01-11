@@ -19,6 +19,8 @@ class Node {
         next = nullptr;
     }
 };
+
+// solution class represents the operation on nodes
 class Solution {
     
 };
