@@ -65,6 +65,7 @@ class StackQueue {
     }
 };
 
+// main function
 int main() {
     StackQueue q;
     q.push(3);
