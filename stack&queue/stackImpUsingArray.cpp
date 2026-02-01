@@ -62,7 +62,7 @@ class ArrayStack {
         
 };
 
-// Main Function
+// Driven function
 int main() {
     ArrayStack stack;
     vector<string> commands = {"ArrayStack", "push", "push", "top", "pop", "isEmpty"};
