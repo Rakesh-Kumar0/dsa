@@ -1,4 +1,6 @@
 #include <iostream>
+#include<vector>
+#include<algorithm>
 using namespace std;
 
 // Function to calculate minimum time required to rot all fresh oranges
