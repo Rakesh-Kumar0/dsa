@@ -1,4 +1,6 @@
 #include <iostream>
+#include<vector>
+#include<String>
 using namespace std;
 
 // Function to count substrings with at most k distinct characters
